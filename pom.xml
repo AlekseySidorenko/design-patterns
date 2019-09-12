@@ -7,8 +7,8 @@
 	<name>patterns</name>
 	
 	<properties>
-		<maven.compiler.source>1.8</maven.compiler.source>
-		<maven.compiler.target>1.8</maven.compiler.target>
+		<maven.compiler.source>1.12</maven.compiler.source>
+		<maven.compiler.target>1.12</maven.compiler.target>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
@@ -65,7 +65,7 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.3</version>
                 <configuration>
-                    <compilerVersion>1.8</compilerVersion>
+                    <compilerVersion>1.12</compilerVersion>
                 </configuration>
             </plugin>
 		</plugins>
