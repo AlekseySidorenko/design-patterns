@@ -1,4 +1,4 @@
-package ru.patterns.decorator;
+package ru.patterns.headfirst.strategy.decorator;
 
 public abstract class Beverage {
     public enum Size { TALL, GRANDE, VENTI}

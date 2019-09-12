@@ -1,4 +1,4 @@
-package ru.patterns.strategy;
+package ru.patterns.headfirst.strategy;
 
 public abstract class Duck {
     FlyBehavior flyBehavior;

@@ -1,4 +1,4 @@
-package ru.patterns.decorator;
+package ru.patterns.headfirst.strategy.decorator;
 
 public class Mocha extends CondimentDecorator {
     Beverage beverage;

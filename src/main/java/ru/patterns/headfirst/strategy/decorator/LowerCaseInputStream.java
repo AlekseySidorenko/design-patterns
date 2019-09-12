@@ -1,4 +1,4 @@
-package ru.patterns.decorator;
+package ru.patterns.headfirst.strategy.decorator;
 
 import java.io.FilterInputStream;
 import java.io.IOException;

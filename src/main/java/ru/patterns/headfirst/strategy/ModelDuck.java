@@ -1,4 +1,4 @@
-package ru.patterns.strategy;
+package ru.patterns.headfirst.strategy;
 
 public class ModelDuck extends Duck {
     public ModelDuck() {

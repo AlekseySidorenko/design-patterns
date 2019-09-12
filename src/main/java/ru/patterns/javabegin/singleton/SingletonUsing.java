@@ -1,4 +1,4 @@
-package ru.patterns.singleton;
+package ru.patterns.javabegin.singleton;
 
 public class SingletonUsing {
     public static void main(String[] args) {

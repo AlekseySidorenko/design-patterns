@@ -1,4 +1,4 @@
-package ru.patterns.strategy;
+package ru.patterns.headfirst.strategy;
 
 public class MallardDuck extends Duck {
 

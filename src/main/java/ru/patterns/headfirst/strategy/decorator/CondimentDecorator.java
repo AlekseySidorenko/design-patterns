@@ -1,4 +1,4 @@
-package ru.patterns.decorator;
+package ru.patterns.headfirst.strategy.decorator;
 
 public abstract class CondimentDecorator extends Beverage {
     public abstract String getDescription();
