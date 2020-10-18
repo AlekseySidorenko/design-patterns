@@ -1,4 +1,4 @@
-package ru.patterns.headfirst.strategy.decorator;
+package ru.patterns.headfirst.decorator;
 
 public class StarbuzzCoffee {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package ru.patterns.headfirst.strategy.decorator;
+package ru.patterns.headfirst.decorator;
 
 public class HouseBlend extends Beverage {
     public HouseBlend() {
