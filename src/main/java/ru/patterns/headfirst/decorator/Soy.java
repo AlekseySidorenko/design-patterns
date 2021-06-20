@@ -1,6 +1,7 @@
 package ru.patterns.headfirst.decorator;
 
 public class Soy extends CondimentDecorator {
+
     Beverage beverage;
 
     public Soy(Beverage beverage) {
@@ -16,4 +17,5 @@ public class Soy extends CondimentDecorator {
     public double cost() {
         return .23 + beverage.cost();
     }
+
 }

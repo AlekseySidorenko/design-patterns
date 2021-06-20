@@ -1,6 +1,7 @@
 package ru.patterns.headfirst.decorator;
 
 public class Mocha extends CondimentDecorator {
+
     Beverage beverage;
 
     public Mocha(Beverage beverage) {
@@ -16,4 +17,5 @@ public class Mocha extends CondimentDecorator {
     public double cost() {
         return .20 + beverage.cost();
     }
+
 }

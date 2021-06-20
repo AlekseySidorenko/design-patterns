@@ -1,22 +1,19 @@
 package ru.patterns.headfirst.decorator;
 
+import lombok.Getter;
+import lombok.Setter;
+
 public abstract class Beverage {
-    public enum Size { TALL, GRANDE, VENTI}
+
+    @Getter
+    @Setter
     Size size = Size.TALL;
 
+    @Getter
     String description = "Unknown beverage";
 
-    public String getDescription() {
-        return description;
-    }
-
-    public void setSize(Size size) {
-        this.size = size;
-    }
-
-    public Size getSize() {
-        return this.size;
-    }
-
     public abstract double cost();
+
+    public enum Size {TALL, GRANDE, VENTI}
+
 }
