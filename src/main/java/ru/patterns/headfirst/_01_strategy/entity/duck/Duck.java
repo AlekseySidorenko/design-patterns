@@ -1,11 +1,15 @@
-package ru.patterns.headfirst.strategy;
+package ru.patterns.headfirst._01_strategy.entity.duck;
 
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import ru.patterns.headfirst._01_strategy.entity.behavior.fly.FlyBehavior;
+import ru.patterns.headfirst._01_strategy.entity.behavior.quack.QuackBehavior;
+
+@Setter
+@NoArgsConstructor
 public abstract class Duck {
     FlyBehavior flyBehavior;
     QuackBehavior quackBehavior;
-
-    public Duck() {
-    }
 
     public abstract void display();
 
@@ -21,13 +25,6 @@ public abstract class Duck {
         System.out.println("All ducks float, even decoys!");
     }
 
-    public void setFlyBehavior(FlyBehavior fb) {
-        flyBehavior = fb;
-    }
-
-    public void setQuackBehavior(QuackBehavior qb) {
-        quackBehavior = qb;
-    }
 }
 
 
